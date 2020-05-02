@@ -123,3 +123,6 @@ D:\Vincent Nguyen\Documents\CMSC 508 Database Theory\CMSC 508 DB Project\FishSto
 D:\Vincent Nguyen\Documents\CMSC 508 Database Theory\CMSC 508 DB Project\FishStore\FishStore\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 D:\Vincent Nguyen\Documents\CMSC 508 Database Theory\CMSC 508 DB Project\FishStore\FishStore\obj\Debug\netcoreapp3.1\FishStore.csproj.CoreCompileInputs.cache
 D:\Vincent Nguyen\Documents\CMSC 508 Database Theory\CMSC 508 DB Project\FishStore\FishStore\obj\Debug\netcoreapp3.1\FishStore.MvcApplicationPartsAssemblyInfo.cache
+D:\Vincent Nguyen\Documents\CMSC 508 Database Theory\CMSC 508 DB Project\FishStore\FishStore\obj\Debug\netcoreapp3.1\Razor\Views\Account\Data.cshtml.g.cs
+D:\Vincent Nguyen\Documents\CMSC 508 Database Theory\CMSC 508 DB Project\FishStore\FishStore\obj\Debug\netcoreapp3.1\Razor\Views\Cart\Content.cshtml.g.cs
+D:\Vincent Nguyen\Documents\CMSC 508 Database Theory\CMSC 508 DB Project\FishStore\FishStore\obj\Debug\netcoreapp3.1\Razor\Views\ContactUs\Form.cshtml.g.cs
