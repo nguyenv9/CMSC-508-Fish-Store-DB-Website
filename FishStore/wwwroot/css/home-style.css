@@ -10,8 +10,11 @@ body {
 
 header {
     width: 100%;
-    height: 100vh;
-    background: url(../Photos/GuppyImage.jpg) no-repeat 50% 50%;
+    height: 7vh;
+    position: fixed;
+    background-color: black;
+    z-index: 9999;
+    /*background: url(../Photos/GuppyImage.jpg) no-repeat 50% 50%;*/
     background-size: cover;
 }
 
@@ -36,18 +39,18 @@ nav {
 
 nav ul {
     list-style: none;
-    background: rgba(0,0,0,0);
+    /*background: rgba(0,0,0,0);*/
     overflow: hidden;
     color: #fff;
     padding: 0;
     text-align: center;
     margin: 0;
-    transition: 1s;
+    /*transition: 1s;*/
 }
 
-nav.black ul {
+/*nav.black ul {
     background: #000;
-}
+}*/
 
 nav ul li {
     display: inline-block;
@@ -83,9 +86,9 @@ nav ul li a {
         background: #000;
     }
 
-    nav.black ul {
+    /*nav.black ul {
         background: #000;
-    }
+    }*/
 
     .showing {
         max-height: 20em;
@@ -102,49 +105,6 @@ nav ul li a {
         display: block;
     }
 }
-
-
-/*.navbar {
-    position: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    background-color: #d4d7de;
-    width: 100%;
-    height: 70px;
-    z-index: 1;
-}
-
-.nav {
-    display: flex;
-    justify-content: right;
-    list-style: none;
-    margin-right: 15%;
-}
-
-a {
-    margin: 15px;
-    color: #000;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-
-a:hover {
-    color: #000;
-}
-
-.logo {
-    flex: 1 1 auto;
-    margin-left: 10%;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-weight: bold;
-    font-size: 35px;
-}*/
-
-
 
 .text-container {
     background-image: url(../Photos/GuppyImage.jpg);
