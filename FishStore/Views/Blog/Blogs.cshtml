@@ -1,6 +1,6 @@
-﻿@model FishStore.Models.ContactUs
+﻿@model FishStore.Models.Blog
 @{
-    ViewData["Title"] = "Form";
+    ViewData["Title"] = "Blogs";
     Layout = null;
 }
 <style>
@@ -114,39 +114,14 @@
 
         <div class="contact">
             <section>
-                <h1 class="section-header">Issues with your order?</h1>
-                <p>Our customer service guarantees a response within 48 hours! </p>
+                <h1 class="section-header">Welcome to our blog!</h1>
+                <p>Here you can read posts made by our experts. </p>
             </section>
         </div>
-        <form>
-            <fieldset>
-                <legend>Order Issue Form</legend>
-                <p>
-                    <label>Your Name</label>
-                    <input type="text"
-                           id="nameInput"/>
-                </p>
-                <p>
-                    <label>Your Email</label>
-                    <input type="text"
-                           id="emailInput" />
-                </p>
-                <p>
-                    <label>Description of Order Issue</label>
-                </p>
-                <p>
-                    <textarea id = "descInput"
-                            rows = "3"
-                            cols = "80"></textarea>
-                </p>
-                <p>
-                    <button type="button">Submit Order Issue</button>
-                </p>
-            </fieldset>
-        </form>
+       
 
     </div>
-    
+
 </body>
 </html>
 

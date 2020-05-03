@@ -258,3 +258,4 @@ C:\Users\timmy\Documents\GitHub\CMSC-508-Fish-Store-DB-Website\FishStore\obj\Deb
 C:\Users\timmy\Documents\GitHub\CMSC-508-Fish-Store-DB-Website\FishStore\obj\Debug\netcoreapp3.1\FishStore.dll
 C:\Users\timmy\Documents\GitHub\CMSC-508-Fish-Store-DB-Website\FishStore\obj\Debug\netcoreapp3.1\FishStore.pdb
 C:\Users\timmy\Documents\GitHub\CMSC-508-Fish-Store-DB-Website\FishStore\obj\Debug\netcoreapp3.1\FishStore.genruntimeconfig.cache
+C:\Users\timmy\Documents\GitHub\CMSC-508-Fish-Store-DB-Website\FishStore\obj\Debug\netcoreapp3.1\Razor\Views\Blog\Blogs.cshtml.g.cs
