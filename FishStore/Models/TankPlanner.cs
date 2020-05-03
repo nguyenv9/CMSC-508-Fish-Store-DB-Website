@@ -6,7 +6,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace FishStore.Models
 {
-    public class Cart
+    public class TankPlanner
+
     {
         public int Id { get; set; }
         public string Name { get; set; }
