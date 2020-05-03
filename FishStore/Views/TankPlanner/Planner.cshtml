@@ -1,25 +1,31 @@
-﻿@model FishStore.Models.ContactUs
+﻿@model FishStore.Models.TankPlanner
 @{
-    ViewData["Title"] = "Form";
+    ViewData["Title"] = "Planner";
     Layout = null;
 }
 <style>
     .blank {
-        height: 40px;
+        height: 75px;
     }
+
     body {
-        background-color: #323232;
-        color: #f2f2f2;
+        background-image: url(../Photos/TankPlannerWallPaper.jpg);
+        background-attachment: fixed;
+        background-position: center;
     }
+
     .contact {
         position: relative;
         background-color: #323232;
         color: #f2f2f2;
-        padding-top: 7px;
+        padding-top: 10px;
         padding-left: 30px;
         padding-right: 30px;
-        padding-bottom: 30px;
-        margin-bottom: 10px;
+        padding-bottom: 10px;
+        margin-right: 35px;
+        margin-left: 35px;
+        box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.5);
+        opacity: .95;
     }
     /* Flex container */
     #p-flex {
@@ -111,6 +117,7 @@
                 </div>
                 <div class="menu">
                     <ul>
+
                         <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
                         <li><a asp-area="" asp-controller="Products" asp-action="Info">Products</a></li>
                         <li><a asp-area="" asp-controller="ContactUs" asp-action="Form">Contact Us</a></li>
@@ -123,44 +130,19 @@
             </nav>
         </header>
         <div class="blank">
-
+            <section>
+            </section>
         </div>
         <div class="contact">
             <section>
-                <h1 class="section-header">Issues with your order?</h1>
-                <p>Our customer service guarantees a response within 48 hours! </p>
+                <h1 class="section-header">Welcome to the Tank Planner!</h1>
+                <p>Here you can read plan your future tanks. </p>
             </section>
-            <form>
-                <fieldset>
-                    <legend>Order Issue Form</legend>
-                    <p>
-                        <label>Your Name: </label>
-                        <input type="text"
-                               id="nameInput" />
-                    </p>
-                    <p>
-                        <label>Your Email: </label>
-                        <input type="text"
-                               id="emailInput" />
-                    </p>
-                    <p>
-                        <label>Description of Order Issue</label>
-                    </p>
-                    <p>
-                        <textarea id="descInput"
-                                  rows="3"
-                                  cols="80"></textarea>
-                    </p>
-                    <p>
-                        <button type="button">Submit Order Issue</button>
-                    </p>
-                </fieldset>
-            </form>
         </div>
-       
+
 
     </div>
-    
+
 </body>
 </html>
 
