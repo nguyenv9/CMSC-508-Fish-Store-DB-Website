@@ -4,12 +4,22 @@
     Layout = null;
 }
 <style>
+    .blank {
+        height: 40px;
+    }
+    body {
+        background-color: #323232;
+        color: #f2f2f2;
+    }
     .contact {
         position: relative;
-        background-color: white;
-        color: black;
-        padding-top: 50px;
-        padding-left: 10px;
+        background-color: #323232;
+        color: #f2f2f2;
+        padding-top: 7px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 30px;
+        margin-bottom: 10px;
     }
     /* Flex container */
     #p-flex {
@@ -111,39 +121,42 @@
                 </div>
             </nav>
         </header>
+        <div class="blank">
 
+        </div>
         <div class="contact">
             <section>
                 <h1 class="section-header">Issues with your order?</h1>
                 <p>Our customer service guarantees a response within 48 hours! </p>
             </section>
+            <form>
+                <fieldset>
+                    <legend>Order Issue Form</legend>
+                    <p>
+                        <label>Your Name: </label>
+                        <input type="text"
+                               id="nameInput" />
+                    </p>
+                    <p>
+                        <label>Your Email: </label>
+                        <input type="text"
+                               id="emailInput" />
+                    </p>
+                    <p>
+                        <label>Description of Order Issue</label>
+                    </p>
+                    <p>
+                        <textarea id="descInput"
+                                  rows="3"
+                                  cols="80"></textarea>
+                    </p>
+                    <p>
+                        <button type="button">Submit Order Issue</button>
+                    </p>
+                </fieldset>
+            </form>
         </div>
-        <form>
-            <fieldset>
-                <legend>Order Issue Form</legend>
-                <p>
-                    <label>Your Name</label>
-                    <input type="text"
-                           id="nameInput"/>
-                </p>
-                <p>
-                    <label>Your Email</label>
-                    <input type="text"
-                           id="emailInput" />
-                </p>
-                <p>
-                    <label>Description of Order Issue</label>
-                </p>
-                <p>
-                    <textarea id = "descInput"
-                            rows = "3"
-                            cols = "80"></textarea>
-                </p>
-                <p>
-                    <button type="button">Submit Order Issue</button>
-                </p>
-            </fieldset>
-        </form>
+       
 
     </div>
     
