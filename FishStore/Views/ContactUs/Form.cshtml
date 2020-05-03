@@ -4,6 +4,13 @@
     Layout = null;
 }
 <style>
+    .contact {
+        position: relative;
+        background-color: white;
+        color: black;
+        padding-top: 50px;
+        padding-left: 10px;
+    }
     /* Flex container */
     #p-flex {
         max-width: 1200px;
@@ -96,14 +103,46 @@
                     <ul>
                         <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
                         <li><a asp-area="" asp-controller="Products" asp-action="Info">Products</a></li>
-                        <li><a href="#contactus">Contact Us</a></li>
-                        <li><a href="#account">Account</a></li>
-                        <li><a href="#cart">Cart</a></li>
+                        <li><a asp-area="" asp-controller="ContactUs" asp-action="Form">Contact Us</a></li>
+                        <li><a asp-area="" asp-controller="Account" asp-action="Data">Account</a></li>
+                        <li><a asp-area="" asp-controller="Cart" asp-action="Content">Cart</a></li>
                     </ul>
                 </div>
             </nav>
         </header>
+
+        <div class="contact">
+            <section>
+                <h1 class="section-header">Issues with your order?</h1>
+                <p>Our customer service guarantees a response within 48 hours! </p>
+            </section>
+        </div>
+        <form>
+            <fieldset>
+                <legend>Order Issue Form</legend>
+                <p>
+                    <label>Your Name</label>
+                    <input type="text"
+                           id="nameInput"/>
+                </p>
+                <p>
+                    <label>Your Email</label>
+                    <input type="text"
+                           id="emailInput" />
+                </p>
+                <p>
+                    <label>Description of Order Issue</label>
+                </p>
+                <p>
+                    <textarea id = "descInput"
+                            rows = "3"
+                            cols = "80"><</textarea>/textarea>
+                </p>
+            </fieldset>
+        </form>
+
     </div>
+    
 </body>
 </html>
 
