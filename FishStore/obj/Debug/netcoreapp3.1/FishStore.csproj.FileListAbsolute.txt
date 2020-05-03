@@ -128,3 +128,5 @@ D:\Vincent Nguyen\Documents\CMSC 508 Database Theory\CMSC 508 DB Project\FishSto
 D:\Vincent Nguyen\Documents\CMSC 508 Database Theory\CMSC 508 DB Project\FishStore\FishStore\obj\Debug\netcoreapp3.1\Razor\Views\ContactUs\Form.cshtml.g.cs
 D:\Vincent Nguyen\Documents\CMSC 508 Database Theory\CMSC 508 DB Project\FishStore\FishStore\obj\Debug\netcoreapp3.1\Razor\Views\Cart\Checkout.cshtml.g.cs
 D:\Vincent Nguyen\Documents\CMSC 508 Database Theory\CMSC 508 DB Project\FishStore\FishStore\obj\Debug\netcoreapp3.1\Razor\Views\Cart\Order.cshtml.g.cs
+D:\Vincent Nguyen\Documents\CMSC 508 Database Theory\CMSC 508 DB Project\FishStore\FishStore\obj\Debug\netcoreapp3.1\Razor\Views\Account\CreateAccount.cshtml.g.cs
+D:\Vincent Nguyen\Documents\CMSC 508 Database Theory\CMSC 508 DB Project\FishStore\FishStore\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
