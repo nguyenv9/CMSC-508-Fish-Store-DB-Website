@@ -1,0 +1,50 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Login</title>
+    <link href="~/css/login-style.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="menu-icon">
+                <i class="fa fa-bars fa-2x"></i>
+            </div>
+            <div>
+                <a class="logo" asp-area="" asp-controller="Home" asp-action="Index">NOVA FISH STORE</a>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
+                    <li><a asp-area="" asp-controller="Products" asp-action="Info">Products</a></li>
+                    <li><a asp-area="" asp-controller="ContactUs" asp-action="Form">Contact Us</a></li>
+                    <li><a asp-area="" asp-controller="Account" asp-action="Login">Account</a></li>
+                    <li><a asp-area="" asp-controller="Cart" asp-action="Content">Cart</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <hi class="label">User Login</hi>
+        <form class="login-form" asp-area="" asp-controller="Account" asp-action="Data" method="post" name="form" onsubmit="return validated()">
+            <div class="font">Email or Phone</div>
+            <input autocomplete="off" type="text" name="email" />
+            <div id="email-error">Please enter a valid Email or Phone</div>
+            <div class="font font2">Password</div>
+            <input type="password" name="password" />
+            <div id="pass-error">Please enter a valid Password</div>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+    <script src="~/js/valid.js"></script>
+</body>
+</html>

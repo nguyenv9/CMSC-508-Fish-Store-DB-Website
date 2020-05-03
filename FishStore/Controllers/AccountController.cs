@@ -10,7 +10,19 @@ namespace FishStore.Controllers
     public class AccountController : Controller
     {
         // GET: Product/Info
+        public ViewResult Login()
+        {
+            var product = new Account() { Name = "Clownfish" };
+            return View(product);
+        }
+
         public ViewResult Data()
+        {
+            var product = new Account() { Name = "Clownfish" };
+            return View(product);
+        }
+
+        public ViewResult CreateAccount()
         {
             var product = new Account() { Name = "Clownfish" };
             return View(product);

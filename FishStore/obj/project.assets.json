@@ -7382,19 +7382,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\timmy\\.nuget\\packages\\": {}
+    "C:\\Users\\Vincent Nguyen\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\timmy\\Documents\\GitHub\\CMSC-508-Fish-Store-DB-Website\\FishStore\\FishStore.csproj",
+      "projectUniqueName": "D:\\Vincent Nguyen\\Documents\\CMSC 508 Database Theory\\CMSC 508 DB Project\\FishStore\\FishStore\\FishStore.csproj",
       "projectName": "FishStore",
-      "projectPath": "C:\\Users\\timmy\\Documents\\GitHub\\CMSC-508-Fish-Store-DB-Website\\FishStore\\FishStore.csproj",
-      "packagesPath": "C:\\Users\\timmy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\timmy\\Documents\\GitHub\\CMSC-508-Fish-Store-DB-Website\\FishStore\\obj\\",
+      "projectPath": "D:\\Vincent Nguyen\\Documents\\CMSC 508 Database Theory\\CMSC 508 DB Project\\FishStore\\FishStore\\FishStore.csproj",
+      "packagesPath": "C:\\Users\\Vincent Nguyen\\.nuget\\packages\\",
+      "outputPath": "D:\\Vincent Nguyen\\Documents\\CMSC 508 Database Theory\\CMSC 508 DB Project\\FishStore\\FishStore\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\timmy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Vincent Nguyen\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
