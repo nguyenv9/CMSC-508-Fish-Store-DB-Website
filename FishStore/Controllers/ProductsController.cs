@@ -34,6 +34,8 @@ namespace FishStore.Controllers
             DatabaseContext context = HttpContext.RequestServices.GetService(typeof(FishStore.Models.DatabaseContext)) as DatabaseContext;
             List <string> products = new List<string>();
             products = context.GetProduct();
+            //context.InsertProduct("LiveFish","Cory Catfish","catfish.jpg",4.99,"Beginner Fish",4);
+            context.InsertProduct();
             ViewBag.data = products;
             return View();
         }

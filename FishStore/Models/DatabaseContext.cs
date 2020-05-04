@@ -36,5 +36,18 @@ namespace FishStore.Models
             }
             return output;
         }
+        public void InsertProduct(/*string a, string b, string c, double x, string d, int y*/)
+        {
+            List<string> output = new List<string>();
+            using (MySqlConnection conn = GetConnection())
+            {
+                conn.Open();
+                
+                MySqlCommand cmd = new MySqlCommand("INSERT INTO Product VALUES (NULL, \"LiveFish\", \"Cory Catfish\", \"catfish.jpg\", 4.99, \"Beginner Fish\", 2);", conn);
+                cmd.ExecuteNonQuery();
+
+            }
+            
+        }
     }
 }
