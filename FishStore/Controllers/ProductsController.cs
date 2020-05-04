@@ -22,15 +22,20 @@ namespace FishStore.Controllers
         }
         
         //products
-        public ActionResult Index(int? pageIndex, string sortBy)
-        {
+        public IActionResult Index(/*int? pageIndex, string sortBy*/)
+        {/*
             if (!pageIndex.HasValue)
                 pageIndex = 1;
 
             if (String.IsNullOrWhiteSpace(sortBy))
                 sortBy = "Name";
 
-            return Content(String.Format("pageIndex={0}&sortBy={1}",pageIndex, sortBy));
+            return Content(String.Format("pageIndex={0}&sortBy={1}",pageIndex, sortBy));*/
+            DatabaseContext context = HttpContext.RequestServices.GetService(typeof(FishStore.Models.DatabaseContext)) as DatabaseContext;
+            List <string> products = new List<string>();
+            products = context.GetProduct();
+            ViewBag.data = products;
+            return View();
         }
 
     }
